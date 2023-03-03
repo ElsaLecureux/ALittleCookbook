@@ -1,0 +1,48 @@
+.Home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .home-title{
+        text-align: center;
+        font-family: 'Dancing Script';
+        font-size: 5rem;
+        font-weight: 600;
+        color: #915350;
+        padding: 1rem 2rem;
+        margin-bottom: 2rem;
+       
+    }
+    .recipes_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .cardRecipe{
+            height: 20rem;
+            width: 18rem;
+            margin: 2rem;
+            position: relative;
+            border-radius: 2.5rem;
+            .recipe-image{
+                border-radius: 2rem;
+                height: 100%;
+                width: 100%;
+            }
+            .recipe-title{
+                width: 100%;
+                font-family: "Dancing Script";
+                font-size: 2.5rem;
+                font-weight: 600;
+                color: white;
+                background-color: rgba(0, 0, 0, 0.281);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                padding: 0.8rem 2rem;
+                border-radius: 0 0 1.8rem 1.8rem;
+            }
+        }
+    }    
+}

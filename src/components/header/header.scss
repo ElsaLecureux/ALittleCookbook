@@ -3,10 +3,31 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: #2E61CA;
+    //margin-bottom: 2rem;
+    .header-title_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .logo-image{
+            width: 8rem;
+            height: 4rem;
+        }
+        .header-title{
+            font-family: 'Tangerine';
+            font-size: 3rem;
+            font-weight: 700;
+        }
+    }
     .navbar_header{
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 20%;
+        .link_header{
+            font-size: 1.2rem;
+            font-family: 'Poiret One';
+        }
     }
 }

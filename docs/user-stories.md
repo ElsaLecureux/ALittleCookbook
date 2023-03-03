@@ -5,6 +5,7 @@
 | Visiteur | Une page d'accueil | Voir le contenu du site |
 | Visiteur | Une liste de toutes les recettes avec leur titre et image | Pouvoir voir toutes les recettes disponibles sur le site |
 | Visiteur | Pouvoir créer un compte | d'avoir accès à toutes les fonctionnalités |
+| Membre | Une section 'Contact us' | Pour envoyer un message, demande de nouvelle recette, avis...| 
 | Membre | Pouvoir me connecter et me déconnecter | d'avoir accès à mon compte quand je le souhaite |
 | Membre | Le détail d'une recette | Voir les ingrédients nécessaires et les étapes de la recette |
 | Membre | Pouvoir modifier mes informations personnelles | Pouvoir les mettre à jour |
