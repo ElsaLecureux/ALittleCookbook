@@ -1,4 +1,10 @@
 .recipe_container{
+    font-family: 'Poiret One';
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     .recipe_title{
         font-family: 'Dancing Script';
         font-size: 5rem;
@@ -6,9 +12,30 @@
         color: #915350;
         margin: 2rem;
     }
-    .recipe_image{
-        border-radius: 2.5rem;
-        width: 20rem;
-        height: auto;
+    .ingredientsAndImage_container{
+        display: flex;
+        width: 50%;
+        justify-content: space-evenly;
+        align-items: center;
+        .recipe_image{
+            border-radius: 2.5rem;
+            width: 20rem;
+            height: auto;
+        }
+        .ingredients-list_container{
+            .ingredients_title{
+                font-size: 3rem;
+                margin: 1.5rem;
+            }
+            .ingredient{
+
+            }
+        }
+    }
+    .timing_container{
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 }

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Recipes from '../../Recipes';
 
 function Home() {
+    console.log(Recipes)
   return (
     <div className="Home content"> 
         <h1 className="home-title">Recipes</h1> 
