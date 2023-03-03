@@ -1,0 +1,12 @@
+.footer_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .navbar_footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 20%;
+    }
+}
