@@ -58,8 +58,25 @@ export default [
                 "quantity": "2 teaspoons"
             }
         ],
-        "instructions":
-            "To Make the dough: In a large bowl, combine the flour, the salt and the sugar. Cut the butter into small cubes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione dignissimos necessitatibus officiis accusantium maiores aliquid dolor autem quaerat atque modi aliquam, facere labore excepturi tempora vel repellendus rerum aperiam molestias. To Make the filling: In a large bowl, combine the flour, the salt and the sugar. Cut the butter into small cubes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione dignissimos necessitatibus officiis accusantium maiores aliquid dolor autem quaerat atque modi aliquam, facere labore excepturi tempora vel repellendus rerum aperiam molestias.",
+        "instructions": [
+            { 
+                "title": "To Make the dough: ", 
+                "details": "In a large bowl, combine the flour, the salt and the sugar. Cut the butter into small cubes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione dignissimos necessitatibus officiis accusantium maiores aliquid dolor autem quaerat atque modi aliquam, facere labore excepturi tempora vel repellendus rerum aperiam molestias. To Make the filling: In a large bowl, combine the flour, the salt and the sugar."
+            },
+            {
+
+                "title": "To make filling",
+                "details": "Cut the butter into small cubes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione dignissimos necessitatibus officiis accusantium maiores aliquid dolor autem quaerat atque modi aliquam, facere labore excepturi tempora vel repellendus rerum aperiam molestias."
+            },
+            {
+                "title": "Form the crust",
+                "details": "Roll the dough ...Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae rem quibusdam molestias nostrum adipisci, quis commodi, fuga ex provident ipsam aut tenetur quasi quo voluptatibus culpa nam, inventore similique a."
+            },
+            { 
+                "title": "Pre-bake the crust",
+                "details": "Heat oven 205°C. ...Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat provident commodi expedita illum molestias natus iste eligendi laborum ut cum mollitia architecto officiis consectetur quis voluptatem corrupti, cupiditate maiores unde."
+            }
+        ],               
     },
     {
         "id": "2",
@@ -119,9 +136,26 @@ export default [
                 "quantity": "2 teaspoons"
             }
         ],
-        "instructions":
-            "To Make the dough: In a large bowl, combine the flour, the salt and the sugar. Cut the butter into small cubes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione dignissimos necessitatibus officiis accusantium maiores aliquid dolor autem quaerat atque modi aliquam, facere labore excepturi tempora vel repellendus rerum aperiam molestias.",
-    },
+        "instructions": [
+            { 
+                "title": "To Make the dough: ", 
+                "details": "In a large bowl, combine the flour, the salt and the sugar. Cut the butter into small cubes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione dignissimos necessitatibus officiis accusantium maiores aliquid dolor autem quaerat atque modi aliquam, facere labore excepturi tempora vel repellendus rerum aperiam molestias. To Make the filling: In a large bowl, combine the flour, the salt and the sugar."
+            },
+            {
+
+                "title": "To make filling",
+                "details": "Cut the butter into small cubes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione dignissimos necessitatibus officiis accusantium maiores aliquid dolor autem quaerat atque modi aliquam, facere labore excepturi tempora vel repellendus rerum aperiam molestias."
+            },
+            {
+                "title": "Form the crust",
+                "details": "Roll the dough ...Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae rem quibusdam molestias nostrum adipisci, quis commodi, fuga ex provident ipsam aut tenetur quasi quo voluptatibus culpa nam, inventore similique a."
+            },
+            { 
+                "title": "Pre-bake the crust",
+                "details": "Heat oven 205°C. ...Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat provident commodi expedita illum molestias natus iste eligendi laborum ut cum mollitia architecto officiis consectetur quis voluptatem corrupti, cupiditate maiores unde."
+            }
+        ],
+        },
     {
         "id": "3",
         "name": "Chocolate Cake",
@@ -180,8 +214,25 @@ export default [
                 "quantity": "2 teaspoons"
             }
         ],
-        "instructions":
-            "To Make the dough: In a large bowl, combine the flour, the salt and the sugar. Cut the butter into small cubes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione dignissimos necessitatibus officiis accusantium maiores aliquid dolor autem quaerat atque modi aliquam, facere labore excepturi tempora vel repellendus rerum aperiam molestias.",
+        "instructions": [
+            { 
+                "title": "To Make the dough: ", 
+                "details": "In a large bowl, combine the flour, the salt and the sugar. Cut the butter into small cubes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione dignissimos necessitatibus officiis accusantium maiores aliquid dolor autem quaerat atque modi aliquam, facere labore excepturi tempora vel repellendus rerum aperiam molestias. To Make the filling: In a large bowl, combine the flour, the salt and the sugar."
+            },
+            {
+
+                "title": "To make filling",
+                "details": "Cut the butter into small cubes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione dignissimos necessitatibus officiis accusantium maiores aliquid dolor autem quaerat atque modi aliquam, facere labore excepturi tempora vel repellendus rerum aperiam molestias."
+            },
+            {
+                "title": "Form the crust",
+                "details": "Roll the dough ...Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae rem quibusdam molestias nostrum adipisci, quis commodi, fuga ex provident ipsam aut tenetur quasi quo voluptatibus culpa nam, inventore similique a."
+            },
+            { 
+                "title": "Pre-bake the crust",
+                "details": "Heat oven 205°C. ...Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat provident commodi expedita illum molestias natus iste eligendi laborum ut cum mollitia architecto officiis consectetur quis voluptatem corrupti, cupiditate maiores unde."
+            }
+        ],
     },
     {
         "id": "4",
@@ -241,7 +292,24 @@ export default [
                 "quantity": "2 teaspoons"
             }
         ],
-        "instructions":
-            "To Make the dough: In a large bowl, combine the flour, the salt and the sugar. Cut the butter into small cubes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione dignissimos necessitatibus officiis accusantium maiores aliquid dolor autem quaerat atque modi aliquam, facere labore excepturi tempora vel repellendus rerum aperiam molestias.",
+        "instructions": [
+            { 
+                "title": "To Make the dough: ", 
+                "details": "In a large bowl, combine the flour, the salt and the sugar. Cut the butter into small cubes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione dignissimos necessitatibus officiis accusantium maiores aliquid dolor autem quaerat atque modi aliquam, facere labore excepturi tempora vel repellendus rerum aperiam molestias. To Make the filling: In a large bowl, combine the flour, the salt and the sugar."
+            },
+            {
+
+                "title": "To make filling",
+                "details": "Cut the butter into small cubes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione dignissimos necessitatibus officiis accusantium maiores aliquid dolor autem quaerat atque modi aliquam, facere labore excepturi tempora vel repellendus rerum aperiam molestias."
+            },
+            {
+                "title": "Form the crust",
+                "details": "Roll the dough ...Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae rem quibusdam molestias nostrum adipisci, quis commodi, fuga ex provident ipsam aut tenetur quasi quo voluptatibus culpa nam, inventore similique a."
+            },
+            { 
+                "title": "Pre-bake the crust",
+                "details": "Heat oven 205°C. ...Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat provident commodi expedita illum molestias natus iste eligendi laborum ut cum mollitia architecto officiis consectetur quis voluptatem corrupti, cupiditate maiores unde."
+            }
+        ],
     },
 ];

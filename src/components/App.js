@@ -7,7 +7,7 @@ import Home from './Home/Home';
 import Signin from './Signin/Signin';
 import Signup from './Signup/Signup';
 import NotFound from './NotFound/NotFound';
-import Recipes from '../Recipes';
+import Contact from './Contact/Contact';
 
 function App() {
   return (
@@ -16,8 +16,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/recipe/:id" element={<Recipe/>} />
-          <Route path="/connection" element={<Signin />} />
-          <Route path="/inscription" element={<Signup />} />
+          <Route path="/signIn" element={<Signin />} />
+          <Route path="/signuP" element={<Signup />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       <Footer/>

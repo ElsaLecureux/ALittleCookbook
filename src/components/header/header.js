@@ -11,10 +11,13 @@ function header() {
     </div>
         <ul className="navbar_header">
             <li>
-                <Link className="link_header" to="/connection">Se connecter</Link>
+                <Link className="link_header" to="/signIn">Sign In</Link>
             </li>
             <li>
-                <Link className="link_header" to="/inscription">S'inscrire</Link>
+                <Link className="link_header" to="/signUp">Sign Up</Link>
+            </li>
+            <li>
+                <Link className="link_header" to="/contact">Contact Us</Link>
             </li>
         </ul>     
     </div>
