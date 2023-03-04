@@ -20,12 +20,12 @@ function Recipe() {
             </ul>
        </div>
        <div className="timing_container">
-            <div>Preparation Time: {recipe.timeToMake}</div>
-            <div>Cooking Time: {recipe.timeToBake}</div>            
+            <div className="timing">Preparation Time: {recipe.timeToMake}</div>
+            <div className="timing">Cooking Time: {recipe.timeToBake}</div>            
        </div>
-       <div>
-            <h2>Preparation</h2>
-            <p>{recipe.instructions}</p>
+       <div className="instructions_container">
+            <h2 className="instruction_title">Preparation</h2>
+            <p className="instruction_paragraphe">{recipe.instructions}</p>
        </div>
     </div>
   );
