@@ -9,8 +9,18 @@ An app with delicious recipes
 - Banana Bread
 - Carrot Cake
 
+More categories:
+
+- Appetizers
+- Main Course
+
+Appetizers:
+
 - Hummus
-- Couscous
+
+Main course:
+
+- Dahl
 - Butternut soup
 
 ## Credits section
