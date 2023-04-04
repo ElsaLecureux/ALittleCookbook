@@ -1,5 +1,7 @@
 # UserStories
 
+## MVP
+
 | En tant que... | Je souhaite... | Afin de... |
 |----------------|----------------|------------|
 | Visiteur | Une page d'accueil | Voir le contenu du site |
@@ -24,6 +26,6 @@
 | En tant que... | Je souhaite... | Afin de... |
 |----------------|----------------|------------|
 | Visiteur | chercher une recette dans la barre de recherche | Retrouver une recette plus facilement |
-| Membre | avoir une liste des ingrédients à acheter | Organiser ses courses |
+| Membre | Avoir une liste des ingrédients à acheter | Organiser ses courses |
 | Admin | Ajouter des recettes | Pour enrichir le site continuellement |
 | Admin | Envoyer une newsletter à tous les membres | les prévenir d'une nouvelle recette|
