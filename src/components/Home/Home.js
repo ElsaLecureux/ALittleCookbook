@@ -1,6 +1,6 @@
 import './Home.scss';
 import { Link } from 'react-router-dom';
-import Recipes from '../../Recipes';
+//import Recipes from '../../Recipes';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
@@ -8,7 +8,7 @@ function Home() {
     const [recipes, setRecipes] = useState([]);
     const getInfosAPI = async () => {
         try {
-            const response = await axios.get("http://localhost:5000")
+            const response = await axios.get("http://localhost:5000/recipes")
             console.log('response:',response);
             const data = response.data;
             setRecipes(data);
@@ -29,7 +29,7 @@ function Home() {
             <Link 
                 to={`/recipe/${recipe.id}`}
                 className="cardRecipe"
-                state={{recipe}}
+                state= {recipe.id}
                 key={i}
             >
                 <img className="recipe-image" src={recipe.image_url} alt="" /> 

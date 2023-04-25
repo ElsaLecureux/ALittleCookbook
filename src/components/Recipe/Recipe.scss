@@ -23,23 +23,29 @@
             width: 20rem;
             height: auto;
         }
-        .ingredients-list_container{
-            text-transform: capitalize;
+        .ingredients-quantities_container{
+            display: flex;
             .ingredients_title{
                 font-size: 2.5rem;
                 margin-bottom: 1.5rem;
                 font-weight: 700;
             }
-            .ingredient-quantity{
-                font-size: 1.2rem;
-                padding-bottom: 0.5rem;
-                .ingredient{
-                    font-weight: 700;
+            .ingredients-list_container{
+                text-transform: capitalize;
+            }
+            .ingredients-quantities_container{    
+                .ingredient-quantity{
+                    font-size: 1.2rem;
+                    padding-bottom: 0.5rem;
+                    .ingredient{
+                        font-weight: 700;
+                    }
                 }
-            }
-            .ingredient-quantity::before {
-                content: "🥄 ";
-            }
+                .ingredient-quantity::before {
+                    content: "🥄 ";
+                }
+        }
+        
         }
     }
     .timing_container{
