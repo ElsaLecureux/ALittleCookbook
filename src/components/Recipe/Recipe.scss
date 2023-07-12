@@ -24,30 +24,41 @@
             height: auto;
         }
         .ingredients-quantities_container{
-            display: flex;
             .ingredients_title{
-                font-size: 2.5rem;
+                font-size: 3rem;
                 margin-bottom: 1.5rem;
                 font-weight: 700;
             }
-            .ingredients-list_container{
-                text-transform: capitalize;
-            }
-            .ingredients-quantities_container{    
-                .ingredient-quantity{
-                    font-size: 1.2rem;
-                    padding-bottom: 0.5rem;
-                    .ingredient{
-                        font-weight: 700;
+            .lists_container{
+                width: 20rem;
+                display: flex;
+                justify-content: space-between;
+                    .ingredients-list{
+                        display: flex;
+                    flex-direction: column;
+                        text-transform: capitalize;
+                        .ingredient{
+                            font-weight: 700;
+                            font-size: 1rem;
+                            margin-bottom: 0.5rem;
+                        }
                     }
-                }
-                .ingredient-quantity::before {
-                    content: "🥄 ";
-                }
+                    .quantities-list{
+                        display: flex;
+                        flex-direction: column;
+                        font-size: 1.2rem;
+                        padding-bottom: 0.5rem;
+                        .quantity{
+                            font-size: 1rem;
+                            margin-bottom: 0.5rem;
+                        }
+                    }
+                    .ingredient-quantity::before {
+                        content: "🥄 ";
+                    }            
+            }
         }
-        
-        }
-    }
+        }        
     .timing_container{
         width: 40%;
         display: flex;

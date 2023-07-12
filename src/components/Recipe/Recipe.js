@@ -38,23 +38,23 @@ function Recipe() {
        <h1 className="recipe_title"> {recipe.name}</h1> 
        <div className="ingredientsAndImage_container">
             <img className="recipe_image" src={recipe.image_url} alt="" /> 
-            <div className="ingredients_titleAnd_lists_container">
+            <div className="ingredients-quantities_container">
             <h2 className="ingredients_title">Ingredients</h2>
             { ingredients ? (
-              <div className="ingredients-quantities_container">
-              <ul className="ingredients-list_container">
-                { ingredients.map((ingredient, i) => (
-                  <li className='ingredient' key={i}>{ingredient}</li>
-                  ))}
-              </ul> 
-                <ul className="ingredients-quantities_container">
-                  { quantities.map ((quantity, i) => (
-                    <li className='quantity' key={i}>{quantity}</li>
-                  ))}
-                  </ul>
+              <div className="lists_container">
+                  <ul className='ingredients-list'>
+                    { ingredients.map((ingredient, i) => (
+                      <li className='ingredient' key={i}>{ingredient}</li>
+                      ))}
+                  </ul>            
+                  <ul className="quantities-list">
+                    { quantities.map ((quantity, i) => (
+                      <li className='quantity' key={i}>{quantity}</li>
+                    ))}
+                  </ul>           
                 </div>  
               ): ( 
-                <h3>Sorry this recipe is still incomplete, we are still working on it</h3>
+                <h3>Sorry this recipe is incomplete, we are still working on it</h3>
               )}
               </div>
             </div>
