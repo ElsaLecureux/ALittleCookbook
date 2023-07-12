@@ -11,6 +11,9 @@ function header() {
     </div>
         <ul className="navbar_header">
             <li>
+                <Link className="link_header" to="/categories">Categories</Link>
+            </li>
+            <li>
                 <Link className="link_header" to="/signIn">Sign In</Link>
             </li>
             <li>

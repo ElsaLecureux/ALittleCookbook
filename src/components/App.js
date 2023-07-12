@@ -4,6 +4,7 @@ import Header from './header/header';
 import {Routes, Route} from 'react-router-dom';
 import Recipe from './Recipe/Recipe';
 import Home from './Home/Home';
+import Categories from './Categories/categories';
 import Signin from './Signin/Signin';
 import Signup from './Signup/Signup';
 import NotFound from './NotFound/NotFound';
@@ -15,6 +16,7 @@ function App() {
      <Header/>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/categories" element={<Categories />} />
           <Route path="/recipe/:id" element={<Recipe/>} />
           <Route path="/signIn" element={<Signin />} />
           <Route path="/signuP" element={<Signup />} />

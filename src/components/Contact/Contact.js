@@ -1,6 +1,6 @@
 import './Contact.scss';
 
-function contact() {
+function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
     console.log('inside sendEmail');
@@ -30,4 +30,4 @@ function contact() {
   );
 }
 
-export default contact;
+export default Contact;
