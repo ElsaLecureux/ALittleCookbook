@@ -4,29 +4,21 @@ An app with delicious recipes
 
 ## Recipes
 
+Desserts:
 - Pecan pie
 - Chocolate Cake
 - Banana Bread
 - Carrot Cake
 - Chocolate Mousse
 
-More categories:
-
-- Appetizers
-- Main Course
-
-Appetizers:
-
+Appetizers
 - Hummus
 - Guacamole
 - Focaccia
 
 Main course:
-
 - Dahl
 - Ratatouille
-- Tomato Burrata Peach Salad
-- Butternut soup
 
 ## Credits section
 
