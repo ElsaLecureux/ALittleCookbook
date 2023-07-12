@@ -21,7 +21,7 @@ function Categories() {
     }, []);
   return (
     <div className="categories_container">
-      <h1 className="home-title">Categories</h1> 
+      <h1 className="categories_title">Categories</h1> 
         <div className="recipes_container">
             {categories.map((category, i) => (
             <Link 
