@@ -78,7 +78,7 @@ function Recipe() {
               </ul>                
             </div>  
               ): ( 
-                <h3>Sorry this recipe is still incomplete, we are still working on it</h3>
+                <h3>Sorry this recipe is incomplete, we are still working on it</h3>
               )}
               </div>
       </div>
