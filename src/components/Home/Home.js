@@ -9,7 +9,7 @@ function Home() {
     const getInfosAPI = async () => {
         try {
             const response = await axios.get("http://localhost:5000/recipes")
-            console.log('response:',response);
+           // console.log('response:',response);
             const data = response.data;
             setRecipes(data);
         } catch (error) {

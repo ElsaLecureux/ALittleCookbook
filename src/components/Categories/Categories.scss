@@ -1,6 +1,22 @@
 .categories_container{
+    width: 100%;
     .categories_title{
         font-size: 4rem;
         font-family: "Special Elite";
+    }
+    .categories{
+        .categoryCard{
+            height: 20rem;
+            width: 18rem;
+            margin: 2rem;
+            position: relative;
+            border-radius: 2.5rem;
+        .category-image{
+                border-radius: 2rem;
+                height: 100%;
+                width: 100%;
+        }
+        }
+        
     }
 }

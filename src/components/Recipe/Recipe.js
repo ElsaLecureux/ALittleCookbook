@@ -5,7 +5,6 @@ import axios from 'axios';
 
 function Recipe() {
     const location = useLocation();
-    console.log('location.state', location.state);
     const recipeId = location.state;
     const [recipe, setRecipe] = useState([]);
     const [ingredients, setIngredients] = useState([]);
@@ -14,9 +13,8 @@ function Recipe() {
     const [instructions_titles, setInstructions_titles] = useState([]);
     const getInfosAPI = async () => {
         try {
-            console.log('recipeId',recipeId);
             const response = await axios.get(`http://localhost:5000/recipe/${recipeId}`)
-            console.log('response:',response);
+           // console.log('response:',response);
             const data = response.data[0];
             setRecipe(data);
             setIngredients(data.ingredient_name);
