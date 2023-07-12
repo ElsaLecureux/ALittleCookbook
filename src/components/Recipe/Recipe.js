@@ -62,18 +62,18 @@ function Recipe() {
               <div className="timing"><span className="timing_title">Preparation Time:</span> {recipe.preparation_time}</div>
               <div className="timing"><span className="timing_title">Cooking Time:</span> {recipe.cooking_time}</div>            
         </div>
-        <div className="instructions_container">
+        <div className="preparation_container">
           <h2 className="instruction_title">Preparation</h2>
           { instructions ? (
-            <div>
-              <ul className="ingredients-list_container">
+            <div className='instructions_container'>
+              <ul className="instructions-titles-list">
                 { instructions_titles.map((instruction_title, i) => (
-                    <li className='ingredient' key={i}>{instruction_title}</li>
+                    <li className='instruction-title' key={i}>{instruction_title}</li>
                 ))}
               </ul> 
-              <ul className="ingredients-quantities_container">
+              <ul className="instructions-list">
               { instructions.map ((instruction, i) => (
-                  <li className='quantity' key={i}>{instruction}</li>
+                  <li className='instruction' key={i}>{instruction}</li>
                 ))}
               </ul>                
             </div>  
