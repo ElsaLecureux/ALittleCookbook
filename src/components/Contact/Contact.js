@@ -10,19 +10,19 @@ function contact() {
         <h1>Contact us</h1>
        <form action="" method="post" onSubmit={sendEmail}>
           <div>
-            <label htmlFor="">Your Email
+            <label htmlFor="email">Your Email
             </label>
-            <input type="text" />
+            <input type="text" id='email' name='email'/>
           </div>
           <div>
-            <label htmlFor=""> Your reason to contact us
+            <label htmlFor="subject"> Your reason to contact us
             </label>
-            <input type="text" />
+            <input type="text" id='subject' name='subject'/>
           </div>  
           <div>
-            <label htmlFor=""> Your message
+            <label htmlFor="emailBody"> Your message
             </label>
-            <textarea type="text" rows = "10" cols="50"/>
+            <textarea type="text" rows = "10" cols="50" id='emailBody' name='emailBody'/>
           </div> 
           <input type="submit" value="Send"/>        
         </form>
