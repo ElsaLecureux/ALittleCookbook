@@ -5,16 +5,18 @@
         font-family: "Special Elite";
     }
     .categories{
-        .categoryCard{
+        display: flex;
+        flex-wrap: wrap;
+        .categoryCard{            
             height: 20rem;
-            width: 18rem;
+            width: 20rem;
             margin: 2rem;
             position: relative;
             border-radius: 2.5rem;
         .category-image{
                 border-radius: 2rem;
-                height: 50%;
-                width: 50%;
+                height: 100%;
+                width: 100%;
         }
         }
         

@@ -32,11 +32,20 @@ Main course:
 
 - Logo: book <a href="https://www.freepik.com/free-vector/covered-opened-book-with-pages-fluttering-hand-drawn-sketch-vector-illustration_29886865.htm#query=open%20book%20drawing&position=3&from_view=keyword&track=ais">Image by Rochak Shukla</a> on Freepik
 
--veganLogo :
+- veganLogo :
 <a href="https://www.freepik.com/free-vector/vegan-friendly-leaves-label-green-color_8413173.htm#query=vegetarian%20logo&position=2&from_view=keyword&track=ais">Image by starline</a> on Freepik
 
--vegetarianLogo:
+- vegetarianLogo:
 Image by <a href="https://www.freepik.com/free-vector/flat-design-vegetarian-badges-collection_18007262.htm#query=vegetarian%20symbol&position=14&from_view=keyword&track=ais">Freepik</a>
 
--ratatouille:
+- ratatouille:
 Photo by <a href="https://unsplash.com/@amir_v_ali?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">amirali mirhashemian</a> on <a href="https://unsplash.com/photos/R02KgL5Ti3Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- dahl: Photo by <a href="https://unsplash.com/@edgarraw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Edgar Castrejon</a> on <a href="https://unsplash.com/s/photos/dahl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- guacamole: Photo by <a href="https://unsplash.com/pt-br/@yakshiiv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">yakshi virmani</a> on <a href="https://unsplash.com/s/photos/guacamole?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   
+- hummus: Photo by <a href="https://unsplash.com/@loudmotion?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ludovic Avice</a> on <a href="https://unsplash.com/s/photos/hummus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+-focaccia: Photo by <a href="https://unsplash.com/@twistsandzests?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Quin Engle</a> on <a href="https://unsplash.com/s/photos/foccacia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    
